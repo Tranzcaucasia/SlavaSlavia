@@ -1,4 +1,3 @@
-
 state = {
 	id = 408
 	name = "STATE_408"
@@ -7,13 +6,11 @@ state = {
 		chromium=20 # was: 28
 		steel=12
 	}
-	
-	state_category = town
-
+	state_category = city
 	history={
 		owner = SLR
 		victory_points = {
-			957 15
+			957 20
 		}
 		buildings = {
 			industrial_complex = 3
