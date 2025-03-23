@@ -1,0 +1,166 @@
+###ALL NAMES OF LEADERS ARE HERE###
+
+characters={
+	SLR_andrey_vlasov={
+		name="Andrey Vlasov"
+		portraits={
+		    civilian={
+				large="GFX_portrait_SOV_andrey_vlasov"
+				small=GFX_portrait_SOV_andrey_vlasov_small
+			}
+			army={
+			    small="GFX_portrait_SOV_andrey_vlasov_small"
+			}
+			army={
+			    large="GFX_portrait_SOV_andrey_vlasov"
+			}
+		}
+		advisor={
+			slot = army_chief
+			allowed = {
+               tag = SLR
+			}
+			available = {
+				has_stability > 0.1
+			}
+			traits = {
+				army_chief_offensive_1
+			}
+			cost = 100
+			ai_will_do = {
+				factor = 1.000
+			}
+		} 
+		
+		field_marshal={
+			traits={ brilliant_strategist career_officer media_personality politically_connected offensive_doctrine }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+		}
+	}
+	
+	SLR_andrey_vlasov_leader={
+		name="Andrey Andreyevich Vlasov"
+		portraits={
+			civilian={
+			    large="GFX_portrait_SOV_andrey_vlasov"
+			}
+		}
+		country_leader={
+			ideology=stalinism
+			traits = { hawk }
+			expire="1965.1.1.1"
+		}
+	}
+	
+	SLR_mikhail_tukhachevsky = {
+		name = SOV_mikhail_tukhachevsky
+		portraits = {
+			army = {
+				small = "GFX_idea_mikhail_tukhachevsky"
+				large = GFX_portrait_SOV_mikhail_tukhachevsky
+			}
+		}
+		advisor = {
+			cost = 150
+			slot = theorist
+			ledger = army
+			allowed = {
+				original_tag = SLR
+			}
+			available = {
+			    
+			}
+			traits = {
+				mass_assault_expert
+			}
+			ai_will_do = {
+				base = 1
+			}
+		}
+
+		field_marshal = {
+			traits = { brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 2
+			legacy_id = 401
+		}
+	}
+	SLR_konstantin_rokossovsky = {
+		name = SOV_konstantin_rokossovsky
+
+		portraits = {
+			army = {
+				small = "GFX_idea_konstantin_rokossovsky"
+				large = GFX_portrait_SOV_konstantin_rokossovsky
+			}
+		}
+
+		corps_commander = {
+			traits = { brilliant_strategist trait_cautious armor_officer }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id = 402
+			visible = { NOT = { has_character_flag = SOV_exiled_flag } }
+		}
+
+		advisor = {
+			slot = high_command
+			ledger = army
+			allowed = {
+				original_tag = SLR
+			}
+			available = {
+			    
+			}
+			traits = {
+				army_armored_3
+			}
+			cost = 200
+			ai_will_do = {
+				base = 2
+			}
+		}		
+	}
+	SLR_vasily_blyukher = {
+		name = SOV_vasily_blyukher
+		portraits = {
+			army = {
+				small = "GFX_portrait_SOV_blyukher_small" #"gfx/interface/ideas/idea_SOV_blyukher.dds"
+				large = "GFX_portrait_SOV_blyukher"
+			}
+		}
+		advisor = {
+			slot = army_chief
+			allowed = {
+				original_tag = SLR
+			}
+			traits = {
+				army_chief_maneuver_2
+			}
+			cost = 100
+		}
+
+		field_marshal = {
+			traits = { old_guard career_officer infantry_officer organizer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id = 0
+		}
+	}
+}
+
+
+
