@@ -3,8 +3,8 @@
 ###SSR means South Slavic Socialist Revolt, CSR means Central Slavic Socialist Revolt###
 
 SLR = {
-	color = rgb { 77 124 226 }
-	color_ui = rgb { 77 124 226 }
+	color = rgb { 86 153 123 }
+	color_ui = rgb { 86 153 123 }
 }
 SSR = {
 	color = rgb { 181 0 6 }
@@ -281,8 +281,8 @@ MEN = {
 	color_ui = rgb { 165  230  132 }
 }
 TAN = {
-	color = rgb { 152 130 191 }
-	color_ui = rgb { 198 169 248 }
+	color = rgb { 176 56 82 }
+	color_ui = rgb { 176 56 82 }
 }
 PAR = {
 	color = rgb { 57 113 228 }

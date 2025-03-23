@@ -6,6 +6,7 @@ state = {
 	
 	state_category = pastoral
 	history = {
+		victory_points = { 855 1 }
 		owner = JAP
 		add_claim_by = SOV
 		add_core_of = VLA

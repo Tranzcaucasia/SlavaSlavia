@@ -9,9 +9,11 @@ state = {
 	state_category = city
 	history={
 		owner = SLR
-		victory_points = {
-			957 20
-		}
+		victory_points = { 957 20 }
+		victory_points = { 6961 6 }
+		victory_points = { 6989 5 }
+		victory_points = { 11745 2 }
+		victory_points = { 664 3 }
 		buildings = {
 			industrial_complex = 3
 			arms_factory = 2

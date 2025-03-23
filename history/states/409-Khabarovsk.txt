@@ -11,9 +11,8 @@ state = {
 
 	history = {
 		owner = SLR
-		victory_points = {
-			12189 8
-		}
+		victory_points = { 12189 8 }
+		victory_points = { 9604 1 }
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
