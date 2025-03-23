@@ -17,16 +17,16 @@ ideas = {
 
 			modifier = {
 			    political_power_gain = -0.1
-				offence = 0.05
-				defence = 0.05
-				command_power_gain = 0.5
-				conscription_factor = 0.03
-				experience_gain_army_factor = -0.01
-				max_command_power = 90
-				max_training = 0.15
-				supply_factor = -0.01
-				army_attack_factor = 0.1
-				army_defence_factor = 0.1
+			    offence = 0.05
+			    defence = 0.05
+			    command_power_gain = 0.5
+			    conscription_factor = 0.03
+			    experience_gain_army_factor = -0.01
+			    max_command_power = 90
+			    max_training = 0.15
+			    supply_factor = -0.01
+			    army_attack_factor = 0.1
+			    army_defence_factor = 0.1
 			}
 		}
 		slavia_ideologically_confused = {
@@ -45,10 +45,10 @@ ideas = {
 
 			modifier = {
 			    political_power_gain = -0.25
-				stability_factor = -0.10
-				communism_drift = 0.02
-				fascism_drift = 0.02
-				neutrality_drift = 0.02
+			    stability_factor = -0.10
+			    communism_drift = 0.02
+		            fascism_drift = 0.02
+			    neutrality_drift = 0.02
 			}
 		}
 		war_for_slavic_freedom = {
@@ -67,10 +67,10 @@ ideas = {
 
 			modifier = {
 			    political_power_gain = 0.05
-				stability_factor = 0.1
-				war_support_factor = 0.2
-				surrender_limit = 0.15
-				ai_focus_aggressive_factor = 0.9
+			    stability_factor = 0.1
+			    war_support_factor = 0.2
+			    surrender_limit = 0.15
+			    ai_focus_aggressive_factor = 0.9
 			}
 		}
 		crusade_against_the_reds = {
@@ -89,7 +89,7 @@ ideas = {
 
 			modifier = {
 			    war_support_factor = 0.05
-				communism_drift = -0.03
+			    communism_drift = -0.03
 			}
 		}
 		american_millitary_support = {
@@ -108,9 +108,9 @@ ideas = {
 
 			modifier = {
 			    consumer_goods_factor = -0.05
-				research_speed_factor = 0.1
-				experience_gain_army = 0.1
-				weekly_manpower_factor = 3500
+			    research_speed_factor = 0.1
+			    experience_gain_army = 0.1
+			    weekly_manpower_factor = 3500
 			}
 		}
 		anti_bolshevik_coalition = {
@@ -129,10 +129,10 @@ ideas = {
 
 			modifier = {
 			    political_power_gain = 0.1
-				command_power_gain = 0.3
-				acclimatization_cold_climate_gain_factor = 0.3
-				neutrality_drift = 0.03
-				fascism_drift = 0.03
+			    command_power_gain = 0.25
+			    acclimatization_cold_climate_gain_factor = 0.15
+		            neutrality_drift = 0.03
+			    fascism_drift = 0.02
 			}
 		}
 		international_slavic_brigades = {
@@ -151,9 +151,9 @@ ideas = {
 
 			modifier = {
 			    weekly_manpower_factor = 1000
-				heat_attrition = -0.1
-				supply_node_initial_output = 0.15
-				supply_factor = 0.1
+			    heat_attrition = -0.1
+			    supply_node_initial_output = 0.15
+			    supply_factor = 0.1
 			}
 		}
 		slavic_freedom_movement = {
@@ -171,8 +171,8 @@ ideas = {
 			picture = SLR_slavic_freedom_movement
 
 			modifier = {
-			    political_power_gain = 0.1
-				weekly_stability = 0.05
+			    political_power_gain = 0.2
+			    weekly_stability = 0.05
 			}
 		}
 		moscow_offensive = {
@@ -188,8 +188,8 @@ ideas = {
 
 			modifier = {
 			    offence = 0.15
-				defence = 0.10
-				army_speed_factor = 0.2
+			    defence = 0.10
+			    army_speed_factor = 0.2
 			}
 		}
 		post_war_economic_disaster = {
@@ -206,9 +206,9 @@ ideas = {
 			modifier = {
 			    stability_weekly = -0.05
 			    production_factory_max_efficiency_factor = -0.15 
-				production_speed_buildings_factor = -0.25
-				consumer_goods_factor = 0.20
-				industry_repair_factor = -0.1
+			    production_speed_buildings_factor = -0.25
+			    consumer_goods_factor = 0.20
+			    industry_repair_factor = -0.1
 			}
 		}
 		bolshevik_resistance = {
@@ -224,8 +224,8 @@ ideas = {
 
 			modifier = {
 			    stability_weekly = -0.05
-				war_support_factor = -0.20
-	            communism_drift = 0.08
+			    war_support_factor = -0.20
+	                    communism_drift = 0.08
 			}
 		}
 		the_black_devils = {
@@ -242,8 +242,8 @@ ideas = {
 			modifier = {
 			    political_power_factor = -0.10
 			    stability_factor = -0.10
-				war_support_factor = 0.05
-	            fascism_drift = 0.02
+			    war_support_factor = 0.05
+	                    fascism_drift = 0.02
 			}
 		}
 	}	
