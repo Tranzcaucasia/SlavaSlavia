@@ -1381,14 +1381,14 @@
  RAA_fascism_party: "NSDAP"
  RAA_fascism_party_long: "Nationalsozialistische Deutsche Arbeiterpartei"
 
- SLR_communism_party:0 "Provisional Government (BF/RF)"
- SLR_communism_party_long:0 "Pan-Slavic Provisional Government (Bolshevik/Reformist Faction)"
+ SLR_communism_party:0 "B&R Faction"
+ SLR_communism_party_long:0 "Bolshevik/Reformist Faction"
  SLR_democratic_party:0 "Provisional Government"
  SLR_democratic_party_long:0 "United Pan-Slavic Provisional Government"
- SLR_fascism_party:0 "Provisional Government"
- SLR_fascism_party_long:0 "Pan-Slavic Provisional Government (United Nationalist League)"
- SLR_neutrality_party:0 "Provisional Government"
- SLR_neutrality_party_long:0 "Pan-Slavic Provisional Government (Tsarist Faction)"
+ SLR_fascism_party:0 "UNL"
+ SLR_fascism_party_long:0 "United Nationalist League"
+ SLR_neutrality_party:0 "Tsarists"
+ SLR_neutrality_party_long:0 "Tsarist Faction"
 
 
 
